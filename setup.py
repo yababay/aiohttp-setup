@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
   name = 'aiohttp-setup',
-  packages = ['aiohttp-setup'],
-  version = '0.1',
+  packages = ['aiohttp_setup'],
+  version = '0.2',
   license='MIT',
   description = 'A function for setting up aiohttp web server.',
   author = 'Михаил Беляков (Michael Belyakov)',

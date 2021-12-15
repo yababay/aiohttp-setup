@@ -6,9 +6,9 @@ others. So, as I use it pretty often, I decided to customize it for myself.
 You can run aiohttp web server as simple as
 
 ```
-from aiohttp-setup import setup
+from aiohttp_setup import aiohttp_setup
 
-setup()
+aiohttp_setup()
 ```
 
 There are following features:
@@ -21,7 +21,7 @@ located is `./public` directory;
 The function has no position parameter and some keyword-parameters:
 
 ```
-def setup(host='localhost', port=8080, services=[], routes=None, 
+def aiohttp_setup(host='localhost', port=8080, services=[], routes=None, 
         static_dir='public', index_file='index.html', root_path='/', 
         show_index=True):
 ```

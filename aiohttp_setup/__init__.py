@@ -3,7 +3,7 @@ from aiohttp import web
 from aiohttp.web import Application
 
 
-def setup(host='localhost', port=8080, services=[], routes=None, 
+def aiohttp_setup(host='localhost', port=8080, services=[], routes=None, 
         static_dir='public', index_file='index.html', root_path='/', 
         show_index=True):
     """ Setup aiohttp web server. """
@@ -28,5 +28,5 @@ def setup(host='localhost', port=8080, services=[], routes=None,
 
 
 if __name__ == '__main__':
-    setup()
+    aiohttp_setup()
 
